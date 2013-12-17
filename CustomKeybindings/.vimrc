@@ -16,3 +16,6 @@ vmap <C-x> x
 
 " map CTRL-V to paste (insert mode)
 imap <C-v> <esc>P
+" map CTRL-S to save current file (insert mode)
+imap <C-s> <esc>:update<cr>
+
